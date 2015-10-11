@@ -1,10 +1,10 @@
 Installation:
 
-    git clone git://github.com/yoesak/dotvim.git ~/.vim
+    git clone git://github.com/tigabelas/dotvim.git ~/.vim
 
 Create symbolic links:
 
-    ln -s ~/dotfiles/vimrc ~/.vimrc
-    ln -s ~/dotfiles/gvimrc ~/.gvimrc
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
 
 
