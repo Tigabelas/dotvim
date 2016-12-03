@@ -1,19 +1,25 @@
 execute pathogen#infect()
+syntax enable
 set t_Co=256
+set ts=4
+set autoindent
 set noshowmode
-filetype plugin indent on
+filetype plugin on
 syn on se title
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 set number
+set cursorline
 set laststatus=2
 set exrc
 set secure
 set colorcolumn=110
 set clipboard=unnamed
+set cursorline
 set hidden
+let python_highlight_all=1
 highlight ColorColumn ctermbg=darkgray
 let g:airline_theme='badwolf'
 
