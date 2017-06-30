@@ -34,6 +34,10 @@ let $RUST_SRC_PATH="/usr/local/src/rustc-1.11.0/src"
 nmap <silent> <leader>k :NERDTreeToggle<cr>
 nmap <silent> <leader>y :NERDTreeFind<cr>
 inoremap {<CR> {<CR>}<Esc>ko
+inoremap ( ()<Esc>i
+inoremap ' ''<Esc>i
+inoremap " ""<Esc>i
+inoremap { {}<Esc>i
 
 command -nargs=1 E execute('silent! !mkdir -p "$(dirname "<args>")"') <Bar> tabe <args>
 
