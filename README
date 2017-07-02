@@ -8,7 +8,11 @@ Create symbolic links:
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
+    ln -s ~/.vim/tmux.conf ~/.tmux.conf
 
 
-Dont forget to add Powerline fonts, please see 
+Dont forget to add Powerline fonts, please see blog
 https://rnestler.github.io/setting-up-airline-vim.html
+
+Set the terminal font to Meslo LG S Powerline Reguler, by right click in the
+terminal and choose Custom Fonts
