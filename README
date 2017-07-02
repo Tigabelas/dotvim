@@ -10,3 +10,5 @@ Create symbolic links:
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
 
+Dont forget to add Powerline fonts, please see 
+https://rnestler.github.io/setting-up-airline-vim.html
