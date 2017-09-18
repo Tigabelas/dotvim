@@ -6,9 +6,9 @@ set autoindent
 set noshowmode
 filetype plugin on
 syn on se title
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set number
 set cursorline
@@ -16,7 +16,7 @@ set laststatus=2
 set exrc
 set secure
 set colorcolumn=110
-set clipboard=unnamed
+set clipboard=unnamedplus
 set cursorline
 set hidden
 let python_highlight_all=1
@@ -83,6 +83,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+let g:jsx_ext_required = 0
 
 call plug#begin('~/.vim/plugged')
 Plug 'mtscout6/syntastic-local-eslint.vim'
